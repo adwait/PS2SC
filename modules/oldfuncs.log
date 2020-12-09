@@ -1,0 +1,103 @@
+    def get_ps_inline_prom_free(self, node):
+        s = ''
+        view_name = self.get_local_view_name()
+        parentthread = 'ps_thread_num'
+        if node.name.name == self.reserved_functions[0] or node.name.name == self.reserved_functions[1] or node.name.name == self.reserved_functions[2]:
+            name = self.get_node_name(node.args.exprs[0])
+            var_name = ['']
+            if '_view' in name:
+                name = '_'.join(name.split('_')[:-1])
+            suff = self.get_node_suffix(node.args.exprs[0])
+            var_name = [name, suff]
+            var_name.append(name + suff)
+            
+            # localvar = self.getLocalVarPrefix() + '_ps_non_det_int_var'
+            # timevar = '%s_view_t%s[ps_thread_num]' % (var_name[0], var_name[1])
+            # lvar = '%s_view_l%s[ps_thread_num]' % (var_name[0], var_name[1])
+            # valvar = '%s_view%s[ps_thread_num]' % (var_name[0], var_name[1])
+            if node.name.name == self.reserved_functions['read_rlx']:
+                s += 'if(nondet_bool()){\n'
+                s += self.get_global_read_stats(var_name, view_name)
+                s += '}\n'
+                s += 'else{\n'
+                s += '  __CPROVER_assume(%s_view_v%s[%s]);\n' % (var_name[0], var_name[1], parentthread)
+                s += '}\n'
+            elif node.name.name == self.reserved_functions[1]:
+                s += 'if(nondet_bool()){\n'
+                s += '  %s_view_l%s[ps_thread_num] = 1;\n' % (var_name[0], var_name[1])
+                s += '      %s = nondet_uint();\n' % (localvar)
+                s += '    __CPROVER_assume(%s <= 2*%s);\n' % (localvar, self._helper_names('rounds'))
+                s += '    __CPROVER_assume(%s > %s_view_t%s[ps_thread_num]);\n' % (localvar, var_name[0], var_name[1])
+                s += '    %s = %s;\n' % (timevar, localvar)
+                s += '    __CPROVER_assume(!%s_%s[%s]);\n' % (self._helper_names('unavail'), var_name[2], localvar)
+                s += '      %s_%s[%s] = 1;\n' % (self._helper_names('unavail'), var_name[2], localvar)
+                s += '      %s_%s[%s] = 1;\n' % (self._helper_names('upd'), var_name[2], localvar)
+                s += '    if(nondet_bool()){\n'
+                s += '          %s' % (self.get_publish_message_stats(var_name, '0'))
+                s += '    }\n'
+                s += '}\n'
+                s += 'else{\n'
+                s += '  %s = 0;\n' % (lvar)
+                s += '}\n'
+                s += '%s_view_u%s[ps_thread_num] = %s;\n' % (var_name[0], var_name[1], lvar)
+                s += '  %s_view_v%s[%s] = 1;\n' % (var_name[0], var_name[1], parentthread)
+            elif node.name.name == self.reserved_functions[2]:
+                s += 'if(nondet_bool()){\n'
+                s += self.get_global_read_stats(var_name, view_name)
+                s += '}\n'
+                s += 'else{\n'
+                s += '  __CPROVER_assume(%s_view_v%s[%s]);\n' % (var_name[0], var_name[1], parentthread)
+                s += '}\n'
+                s += '__CPROVER_assume(%s_view%s[%s] == %s);\n' % (var_name[0], var_name[1], parentthread, self.visit(node.args.exprs[2])) # new addition for cas
+                s += 'if(%s){\n' % (lvar)
+                s += '  __CPROVER_assume(%s_%s[(%s_view_t)%s[%s]]);\n' % (self._helper_names('upd'), var_name[2], var_name[0], var_name[1], parentthread)
+                s += '  %s_%s[(%s_view_t)%s[%s]] = 0;\n' % (self._helper_names('upd'), var_name[2],var_name[0], var_name[1], parentthread) 
+                s += '}\n'
+                s += '%s = %s;\n' % (valvar, self.getLocalVarPrefix() + self.get_update_var(var_name[0]))
+                s += 'if(nondet_bool()){\n'
+                s += '  %s =  0;\n' % (lvar)
+                s += '}\n'
+                s += 'else{\n'
+                s += '      if(%s_view_u%s[%s]){\n' % (var_name[0], var_name[1], parentthread)
+                s += '          %s = %s + 1;\n' % (localvar, timevar)
+                s += '      }\n'
+                s += '      else{\n'
+                s += '          %s = nondet_uint();\n' % (localvar)
+                s += '          __CPROVER_assume(%s > %s);\n' % (localvar, timevar)
+                s += '      }\n'
+                s += '      __CPROVER_assume(!%s_%s[%s]);\n' % (self._helper_names('unavail'), var_name[2], localvar)
+                s += '      %s_%s[%s] = 1;\n' % (self._helper_names('unavail'), var_name[2], localvar)
+                s += '      %s_%s[%s] = 1;\n' % (self._helper_names('upd'), var_name[2], localvar)
+                s += '      %s = %s;\n' % (timevar, localvar)
+                s += '      if(nondet_bool()){\n'
+                s += '          %s' % (self.get_publish_message_stats(var_name, '0'))
+                s += '      }\n'
+                s += '  %s = 1;\n' % (lvar)
+                s += '  %s_view_u%s[%s] = 1;\n' % (var_name[0], var_name[1], parentthread)
+                s += '}\n'
+                s += '  %s_view_v%s[%s] = 1;\n' % (var_name[0], var_name[1], parentthread)
+        elif node.name.name == self.reserved_functions[4]:
+            print 'error - checkps not required without promises'
+            # s += '  for(int messit = 0; messit <= %s; messit++){\n' % (self._helper_names('rounds'))
+            for messit in range(self.__ps_rounds):
+                s += '      __CPROVER_assume(_ps_flag[%s] != ps_thread_num);\n' % messit
+                s += '      if(_ps_flag[%s] == 255){\n' % messit
+                s += '          _ps_flag[%s] = ps_thread_num;\n' % messit
+                s += '      }\n'
+                # s += '  }\n'
+            for k in self.Parser.varNames['']:
+                tup = ('', k)
+                if k.startswith('__cs') or self._is_ps_helper(k):
+                    continue
+                for indices in self.gen_all(self.Parser.varSize[('', k)]):
+                    s += '  __CPROVER_assume(!%s_liveChain%s[0]);\n' % (k, indices)
+        elif node.name.name == self.reserved_functions[5]:
+            print 'error - save_state_ps not required without promises'
+            s += 'save_state_ps(ps_thread_num);\n'
+        elif node.name.name == self.reserved_functions[6]:
+            print 'error - load_state_ps not required without promises'
+            s += 'load_state_ps(ps_thread_num);\n'
+            # elif node.name.name == self.reserved_functions[5]:
+        elif node.name.name == self.reserved_functions[7]:
+            s += 'scfence_ps(%s);\n' % parentthread
+        return s

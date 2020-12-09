@@ -1,0 +1,47 @@
+# lazy-cseq with new schedule (September 2016)
+# + Abstract Interpretation to predict the number of bits
+
+workarounds
+functiontracker
+
+preinstrumenter
+#constants
+spinlock
+
+# program simplification
+switchtransformer
+dowhileconverter
+# add atomicmerger
+atomicmerger
+#conditionextractor
+
+# program flattening
+#varnames
+inliner
+
+# copy threads for the promising checks
+threadcopy
+
+constants
+
+#unroller
+dowhileconverter
+varnames
+duplicator
+
+# sequentialization
+
+condwaitconverter
+
+#@save witness=tempfile backend=framac time=86400 rounds=2
+#@pre lazyseqai
+#@pre instrumenter
+#@pre feeder
+#@pre cex
+@load framaclog=tempfile env.preanalysistime=<get_time>
+
+@after framaclogprocessor
+@after lazyseqnewschedule
+@after instrumenter
+@after feeder
+@after cex
