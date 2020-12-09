@@ -32,6 +32,10 @@ This generates a file `_cs_testcase_file.c`. This should be passed to `cbmc` as 
   cbmc _cs_testcase_file.c <other cbmc options>
 ```
 
+#### Benchmarks
+
+Testcases are available in the `benchmarks/` folder; `benchmarks/scripts` contains relevant scripts for compiling the files to `_cs_` files and for running `cbmc` on them. Please note that each script should be placed pulled out of `benchmarks/scripts` and into the `benchmarks` folder before running for the paths to work out (alternatively, peek into the simple scripts to tweak the paths).
+
 #### Licensing
 
 This tool is under an MIT License - see [LICENSE](LICENSE.txt)
