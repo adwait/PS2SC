@@ -1,0 +1,12 @@
+log/*
+/*.log
+/*.debug
+/*.c
+/*.out
+/*.extract
+testcases/
+testing/
+examples/*
+*.pyc
+examples/*.log
+*.log
