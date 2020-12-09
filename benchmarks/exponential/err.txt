@@ -1,0 +1,21 @@
+Sun Jul 7 16:27:51 CEST 2019
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_exponential_bug_5.c line 162 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_exponential_bug_5.c line 1340 function thr3_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_exponential_bug_10.c line 162 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_exponential_bug_10.c line 1340 function thr3_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_exponential_bug_25.c line 162 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_exponential_bug_25.c line 1340 function thr3_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_exponential_bug_50.c line 162 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_exponential_bug_50.c line 1340 function thr3_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_exponential_bug_70.c line 133 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_exponential_bug_70.c line 855 function thr3_0: function `assert' is not declared

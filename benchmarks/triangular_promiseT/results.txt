@@ -1,0 +1,39 @@
+Sun Jul 5 17:12:32 IST 2020
+
+------- RESULTS -------
+
+Evaluating _cs_promised_fibonacci_2.c
+
+---- params ---
+L	 3600
+timeout	
+
+
+real	0m59.558s
+user	0m58.964s
+sys	0m0.104s
+
+
+Evaluating _cs_promised_fibonacci_3.c
+
+---- params ---
+L	 3600
+timeout	
+
+
+real	0m15.143s
+user	0m15.044s
+sys	0m0.072s
+
+
+Evaluating _cs_promised_fibonacci_4.c
+
+---- params ---
+L	 3600
+timeout	
+
+
+real	0m6.766s
+user	0m6.716s
+sys	0m0.028s
+

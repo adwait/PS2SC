@@ -1,0 +1,42 @@
+Thu Jul 4 10:12:48 PDT 2019
+
+------- RESULTS -------
+
+Evaluating _cs_queue_safe_2.c
+
+---- params ---
+L	 4
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	0m1.303s
+user	0m0.940s
+sys	0m0.032s
+
+
+Evaluating _cs_queue_safe_3.c
+
+---- params ---
+L	 4
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	0m7.896s
+user	0m6.600s
+sys	0m0.096s
+
+
+Evaluating _cs_stack_safe.c
+
+---- params ---
+L	 4
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	0m2.641s
+user	0m1.616s
+sys	0m0.032s
+

@@ -1,0 +1,880 @@
+Wed Jul 3 02:24:50 PDT 2019
+
+Evaluating mutex/Table1
+
+---- params ---
+L	 2
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table1/compiled/_cs_bakery.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.512s
+user	0m0.364s
+sys	0m0.036s
+
+
+mutex/Table1/compiled/_cs_burns.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.287s
+user	0m0.248s
+sys	0m0.000s
+
+
+mutex/Table1/compiled/_cs_dekker.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.942s
+user	0m0.848s
+sys	0m0.052s
+
+
+mutex/Table1/compiled/_cs_dekker_simple.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.240s
+user	0m0.196s
+sys	0m0.004s
+
+
+mutex/Table1/compiled/_cs_lamport.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m2.470s
+user	0m2.276s
+sys	0m0.128s
+
+
+mutex/Table1/compiled/_cs_peterson_3.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.843s
+user	0m0.764s
+sys	0m0.040s
+
+
+mutex/Table1/compiled/_cs_peterson.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.325s
+user	0m0.280s
+sys	0m0.004s
+
+
+mutex/Table1/compiled/_cs_szymanski.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.530s
+user	0m0.484s
+sys	0m0.004s
+
+Wed Jul 3 03:12:52 PDT 2019
+
+Evaluating mutex/Table3/
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table3//compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.727s
+user	0m0.668s
+sys	0m0.020s
+
+
+mutex/Table3//compiled/_cs_peterson_4_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m1.867s
+user	0m1.760s
+sys	0m0.052s
+
+
+mutex/Table3//compiled/_cs_peterson_5_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m4.130s
+user	0m3.992s
+sys	0m0.056s
+
+
+mutex/Table3//compiled/_cs_peterson_6_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m11.143s
+user	0m10.908s
+sys	0m0.140s
+
+
+mutex/Table3//compiled/_cs_peterson_7_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m22.379s
+user	0m21.996s
+sys	0m0.204s
+
+Wed Jul 3 03:27:38 PDT 2019
+
+Evaluating mutex/Table4/
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table4//compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.732s
+user	0m0.668s
+sys	0m0.024s
+
+
+mutex/Table4//compiled/_cs_peterson_4_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m1.879s
+user	0m1.772s
+sys	0m0.052s
+
+
+mutex/Table4//compiled/_cs_peterson_5_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m4.467s
+user	0m4.320s
+sys	0m0.064s
+
+
+mutex/Table4//compiled/_cs_peterson_6_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m10.459s
+user	0m10.256s
+sys	0m0.112s
+
+
+mutex/Table4//compiled/_cs_peterson_7_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m17.980s
+user	0m17.616s
+sys	0m0.180s
+
+Tue Jul 2 07:39:34 PDT 2019
+
+Evaluating mutex/Table5
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table5/compiled/_cs_szymanski_3_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m1.275s
+user	0m0.612s
+sys	0m0.004s
+
+
+mutex/Table5/compiled/_cs_szymanski_4_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m2.191s
+user	0m1.032s
+sys	0m0.040s
+
+
+mutex/Table5/compiled/_cs_szymanski_5_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m3.697s
+user	0m1.748s
+sys	0m0.072s
+
+
+mutex/Table5/compiled/_cs_szymanski_6_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m5.328s
+user	0m2.584s
+sys	0m0.056s
+
+
+mutex/Table5/compiled/_cs_szymanski_7_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m7.980s
+user	0m3.892s
+sys	0m0.072s
+
+Tue Jul 2 07:39:55 PDT 2019
+
+Evaluating mutex/Table6
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table6/compiled/_cs_bakery_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.687s
+user	0m0.316s
+sys	0m0.004s
+
+
+mutex/Table6/compiled/_cs_lamport_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m1.220s
+user	0m0.548s
+sys	0m0.040s
+
+
+mutex/Table6/compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m1.338s
+user	0m0.624s
+sys	0m0.024s
+
+
+mutex/Table6/compiled/_cs_peterson_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.461s
+user	0m0.196s
+sys	0m0.016s
+
+
+mutex/Table6/compiled/_cs_tbar_2_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.391s
+user	0m0.164s
+sys	0m0.008s
+
+
+mutex/Table6/compiled/_cs_tbar_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.846s
+user	0m0.392s
+sys	0m0.012s
+
+Tue Jul 2 07:40:01 PDT 2019
+
+Evaluating mutex/Table7
+
+---- params ---
+L	 2
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table7/compiled/_cs_bakery_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m1.271s
+user	0m0.604s
+sys	0m0.020s
+
+
+mutex/Table7/compiled/_cs_lamport_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m6.631s
+user	0m3.192s
+sys	0m0.096s
+
+
+mutex/Table7/compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m2.634s
+user	0m1.248s
+sys	0m0.048s
+
+
+mutex/Table7/compiled/_cs_peterson_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.798s
+user	0m0.372s
+sys	0m0.008s
+
+
+mutex/Table7/compiled/_cs_tbar_2_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.596s
+user	0m0.276s
+sys	0m0.000s
+
+
+mutex/Table7/compiled/_cs_tbar_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m1.480s
+user	0m0.704s
+sys	0m0.012s
+
+Tue Jul 2 07:40:17 PDT 2019
+
+Evaluating mutex/Table8
+
+---- params ---
+L	 4
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table8/compiled/_cs_bakery_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m10.632s
+user	0m5.196s
+sys	0m0.092s
+
+
+mutex/Table8/compiled/_cs_lamport_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	11m23.744s
+user	5m32.884s
+sys	0m0.880s
+
+
+mutex/Table8/compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m37.734s
+user	0m15.992s
+sys	0m0.180s
+
+
+mutex/Table8/compiled/_cs_peterson_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m6.636s
+user	0m2.912s
+sys	0m0.040s
+
+
+mutex/Table8/compiled/_cs_tbar_2_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m3.078s
+user	0m1.320s
+sys	0m0.028s
+
+
+mutex/Table8/compiled/_cs_tbar_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m8.410s
+user	0m3.904s
+sys	0m0.048s
+
+Wed Jul 3 02:24:50 PDT 2019
+
+Evaluating mutex/Table1
+
+---- params ---
+L	 2
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table1/compiled/_cs_bakery.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.512s
+user	0m0.364s
+sys	0m0.036s
+
+
+mutex/Table1/compiled/_cs_burns.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.287s
+user	0m0.248s
+sys	0m0.000s
+
+
+mutex/Table1/compiled/_cs_dekker.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.942s
+user	0m0.848s
+sys	0m0.052s
+
+
+mutex/Table1/compiled/_cs_dekker_simple.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.240s
+user	0m0.196s
+sys	0m0.004s
+
+
+mutex/Table1/compiled/_cs_lamport.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m2.470s
+user	0m2.276s
+sys	0m0.128s
+
+
+mutex/Table1/compiled/_cs_peterson_3.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.843s
+user	0m0.764s
+sys	0m0.040s
+
+
+mutex/Table1/compiled/_cs_peterson.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.325s
+user	0m0.280s
+sys	0m0.004s
+
+
+mutex/Table1/compiled/_cs_szymanski.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.530s
+user	0m0.484s
+sys	0m0.004s
+
+Wed Jul 3 02:42:43 PDT 2019
+
+Evaluating mutex/Table2/2a/
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table2/2a//compiled/_cs_peterson_10_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	12m14.705s
+user	12m9.188s
+sys	0m3.444s
+
+
+mutex/Table2/2a//compiled/_cs_peterson_4_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m1.876s
+user	0m1.796s
+sys	0m0.020s
+
+
+mutex/Table2/2a//compiled/_cs_peterson_6_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m11.000s
+user	0m10.696s
+sys	0m0.156s
+
+
+mutex/Table2/2a//compiled/_cs_peterson_8_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	1m22.371s
+user	1m21.624s
+sys	0m0.420s
+
+Tue Jul 2 07:37:27 PDT 2019
+
+Evaluating mutex/Table2/2b
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table2/2b/compiled/_cs_szymanski_10_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m37.326s
+user	0m15.892s
+sys	0m0.144s
+
+
+mutex/Table2/2b/compiled/_cs_szymanski_4_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m2.937s
+user	0m1.160s
+sys	0m0.084s
+
+
+mutex/Table2/2b/compiled/_cs_szymanski_6_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m7.991s
+user	0m3.288s
+sys	0m0.084s
+
+
+mutex/Table2/2b/compiled/_cs_szymanski_8_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m19.525s
+user	0m8.192s
+sys	0m0.096s
+
+Wed Jul 3 03:12:52 PDT 2019
+
+Evaluating mutex/Table3/
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table3//compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.727s
+user	0m0.668s
+sys	0m0.020s
+
+
+mutex/Table3//compiled/_cs_peterson_4_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m1.867s
+user	0m1.760s
+sys	0m0.052s
+
+
+mutex/Table3//compiled/_cs_peterson_5_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m4.130s
+user	0m3.992s
+sys	0m0.056s
+
+
+mutex/Table3//compiled/_cs_peterson_6_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m11.143s
+user	0m10.908s
+sys	0m0.140s
+
+
+mutex/Table3//compiled/_cs_peterson_7_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m22.379s
+user	0m21.996s
+sys	0m0.204s
+
+Wed Jul 3 03:27:38 PDT 2019
+
+Evaluating mutex/Table4/
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table4//compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.732s
+user	0m0.668s
+sys	0m0.024s
+
+
+mutex/Table4//compiled/_cs_peterson_4_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m1.879s
+user	0m1.772s
+sys	0m0.052s
+
+
+mutex/Table4//compiled/_cs_peterson_5_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m4.467s
+user	0m4.320s
+sys	0m0.064s
+
+
+mutex/Table4//compiled/_cs_peterson_6_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m10.459s
+user	0m10.256s
+sys	0m0.112s
+
+
+mutex/Table4//compiled/_cs_peterson_7_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m17.980s
+user	0m17.616s
+sys	0m0.180s
+
+Tue Jul 2 07:39:34 PDT 2019
+
+Evaluating mutex/Table5
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table5/compiled/_cs_szymanski_3_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m1.275s
+user	0m0.612s
+sys	0m0.004s
+
+
+mutex/Table5/compiled/_cs_szymanski_4_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m2.191s
+user	0m1.032s
+sys	0m0.040s
+
+
+mutex/Table5/compiled/_cs_szymanski_5_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m3.697s
+user	0m1.748s
+sys	0m0.072s
+
+
+mutex/Table5/compiled/_cs_szymanski_6_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m5.328s
+user	0m2.584s
+sys	0m0.056s
+
+
+mutex/Table5/compiled/_cs_szymanski_7_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m7.980s
+user	0m3.892s
+sys	0m0.072s
+
+Tue Jul 2 07:39:55 PDT 2019
+
+Evaluating mutex/Table6
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table6/compiled/_cs_bakery_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.687s
+user	0m0.316s
+sys	0m0.004s
+
+
+mutex/Table6/compiled/_cs_lamport_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m1.220s
+user	0m0.548s
+sys	0m0.040s
+
+
+mutex/Table6/compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m1.338s
+user	0m0.624s
+sys	0m0.024s
+
+
+mutex/Table6/compiled/_cs_peterson_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.461s
+user	0m0.196s
+sys	0m0.016s
+
+
+mutex/Table6/compiled/_cs_tbar_2_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.391s
+user	0m0.164s
+sys	0m0.008s
+
+
+mutex/Table6/compiled/_cs_tbar_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.846s
+user	0m0.392s
+sys	0m0.012s
+
+Tue Jul 2 07:40:01 PDT 2019
+
+Evaluating mutex/Table7
+
+---- params ---
+L	 2
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table7/compiled/_cs_bakery_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m1.271s
+user	0m0.604s
+sys	0m0.020s
+
+
+mutex/Table7/compiled/_cs_lamport_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m6.631s
+user	0m3.192s
+sys	0m0.096s
+
+
+mutex/Table7/compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m2.634s
+user	0m1.248s
+sys	0m0.048s
+
+
+mutex/Table7/compiled/_cs_peterson_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.798s
+user	0m0.372s
+sys	0m0.008s
+
+
+mutex/Table7/compiled/_cs_tbar_2_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.596s
+user	0m0.276s
+sys	0m0.000s
+
+
+mutex/Table7/compiled/_cs_tbar_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m1.480s
+user	0m0.704s
+sys	0m0.012s
+
+Tue Jul 2 07:40:17 PDT 2019
+
+Evaluating mutex/Table8
+
+---- params ---
+L	 4
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table8/compiled/_cs_bakery_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m10.632s
+user	0m5.196s
+sys	0m0.092s
+
+
+mutex/Table8/compiled/_cs_lamport_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	11m23.744s
+user	5m32.884s
+sys	0m0.880s
+
+
+mutex/Table8/compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m37.734s
+user	0m15.992s
+sys	0m0.180s
+
+
+mutex/Table8/compiled/_cs_peterson_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m6.636s
+user	0m2.912s
+sys	0m0.040s
+
+
+mutex/Table8/compiled/_cs_tbar_2_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m3.078s
+user	0m1.320s
+sys	0m0.028s
+
+
+mutex/Table8/compiled/_cs_tbar_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m8.410s
+user	0m3.904s
+sys	0m0.048s
+

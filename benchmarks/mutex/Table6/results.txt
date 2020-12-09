@@ -1,0 +1,58 @@
+Sun Jul 5 22:55:55 IST 2020
+
+Evaluating mutex/Table6
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table6/compiled/_cs_bakery_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.203s
+user	0m0.184s
+sys	0m0.016s
+
+
+mutex/Table6/compiled/_cs_lamport_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.227s
+user	0m0.212s
+sys	0m0.008s
+
+
+mutex/Table6/compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.279s
+user	0m0.268s
+sys	0m0.008s
+
+
+mutex/Table6/compiled/_cs_peterson_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.182s
+user	0m0.156s
+sys	0m0.016s
+
+
+mutex/Table6/compiled/_cs_tbar_2_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.185s
+user	0m0.172s
+sys	0m0.004s
+
+
+mutex/Table6/compiled/_cs_tbar_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.257s
+user	0m0.232s
+sys	0m0.016s
+

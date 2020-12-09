@@ -1,0 +1,55 @@
+Thu Jul 2 18:18:34 IST 2020
+
+------- RESULTS -------
+
+Evaluating _cs_n_writers_a_reader_7.c
+
+---- params ---
+L	 2
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.401s
+user	0m0.344s
+sys	0m0.028s
+
+
+Evaluating _cs_n_writers_a_reader_8.c
+
+---- params ---
+L	 2
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.390s
+user	0m0.368s
+sys	0m0.016s
+
+
+Evaluating _cs_n_writers_a_reader_9.c
+
+---- params ---
+L	 2
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.429s
+user	0m0.416s
+sys	0m0.008s
+
+
+Evaluating _cs_n_writers_a_reader_10.c
+
+---- params ---
+L	 2
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.481s
+user	0m0.468s
+sys	0m0.008s
+

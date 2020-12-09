@@ -1,0 +1,50 @@
+Tue Jul 2 07:39:34 PDT 2019
+
+Evaluating mutex/Table5
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table5/compiled/_cs_szymanski_3_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m1.275s
+user	0m0.612s
+sys	0m0.004s
+
+
+mutex/Table5/compiled/_cs_szymanski_4_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m2.191s
+user	0m1.032s
+sys	0m0.040s
+
+
+mutex/Table5/compiled/_cs_szymanski_5_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m3.697s
+user	0m1.748s
+sys	0m0.072s
+
+
+mutex/Table5/compiled/_cs_szymanski_6_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m5.328s
+user	0m2.584s
+sys	0m0.056s
+
+
+mutex/Table5/compiled/_cs_szymanski_7_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m7.980s
+user	0m3.892s
+sys	0m0.072s
+

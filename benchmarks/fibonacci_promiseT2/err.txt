@@ -1,0 +1,13 @@
+Sun Jul 5 20:14:02 IST 2020
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_promised_fibonacci_2.c line 588 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_promised_fibonacci_2.c line 1850 function t2_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_promised_fibonacci_3.c line 652 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_promised_fibonacci_3.c line 2260 function t2_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_promised_fibonacci_4.c line 716 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_promised_fibonacci_4.c line 2670 function t2_0: function `assert' is not declared

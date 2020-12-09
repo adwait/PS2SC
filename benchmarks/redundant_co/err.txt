@@ -1,0 +1,17 @@
+Sun Jul 7 16:18:59 CEST 2019
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_redundant_co_5.c line 104 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_redundant_co_5.c line 462 function thread3_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_redundant_co_10.c line 104 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_redundant_co_10.c line 462 function thread3_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_redundant_co_15.c line 104 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_redundant_co_15.c line 462 function thread3_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_redundant_co_20.c line 104 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_redundant_co_20.c line 462 function thread3_0: function `assert' is not declared

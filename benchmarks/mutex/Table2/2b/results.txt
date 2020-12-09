@@ -1,0 +1,42 @@
+Tue Jul 2 07:37:27 PDT 2019
+
+Evaluating mutex/Table2/2b
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table2/2b/compiled/_cs_szymanski_10_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m37.326s
+user	0m15.892s
+sys	0m0.144s
+
+
+mutex/Table2/2b/compiled/_cs_szymanski_4_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m2.937s
+user	0m1.160s
+sys	0m0.084s
+
+
+mutex/Table2/2b/compiled/_cs_szymanski_6_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m7.991s
+user	0m3.288s
+sys	0m0.084s
+
+
+mutex/Table2/2b/compiled/_cs_szymanski_8_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m19.525s
+user	0m8.192s
+sys	0m0.096s
+

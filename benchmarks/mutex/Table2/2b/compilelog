@@ -1,0 +1,17 @@
+Sat Jul 4 13:49:39 IST 2020
+
+Compiling ./mutex/Table2/2b
+
+---- params used ---
+ee	 2
+rounds	 1
+prom	 0
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./mutex/Table2/2b/szymanski_10_fenced.c, [92mCompilation Done[0m, 7.71, 78.91MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./mutex/Table2/2b/szymanski_4_fenced.c, [92mCompilation Done[0m, 1.51, 30.69MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./mutex/Table2/2b/szymanski_6_fenced.c, [92mCompilation Done[0m, 2.80, 42.32MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./mutex/Table2/2b/szymanski_8_fenced.c, [92mCompilation Done[0m, 4.81, 60.23MB, PRE:0.00

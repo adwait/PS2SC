@@ -1,0 +1,65 @@
+Wed Jul 3 02:22:49 PDT 2019
+
+Compiling mutex/Table1/
+
+---- params used ---
+ee	 4
+rounds	 1
+prom	 0
+
+
+ PSChecker |       July 2019
+----------------------------
+ Based on the CSeq-framework
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+mutex/Table1//bakery.c, [92mCompilation Done[0m, 1.68, 23.20MB, PRE:0.00
+
+ PSChecker |       July 2019
+----------------------------
+ Based on the CSeq-framework
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+mutex/Table1//burns.c, [92mCompilation Done[0m, 1.08, 22.18MB, PRE:0.00
+
+ PSChecker |       July 2019
+----------------------------
+ Based on the CSeq-framework
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+mutex/Table1//dekker.c, [92mCompilation Done[0m, 1.31, 23.42MB, PRE:0.00
+
+ PSChecker |       July 2019
+----------------------------
+ Based on the CSeq-framework
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+mutex/Table1//dekker_simple.c, [92mCompilation Done[0m, 1.03, 21.58MB, PRE:0.00
+
+ PSChecker |       July 2019
+----------------------------
+ Based on the CSeq-framework
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+mutex/Table1//lamport.c, [92mCompilation Done[0m, 1.63, 26.29MB, PRE:0.00
+
+ PSChecker |       July 2019
+----------------------------
+ Based on the CSeq-framework
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+mutex/Table1//peterson_3.c, [92mCompilation Done[0m, 1.72, 27.41MB, PRE:0.00
+
+ PSChecker |       July 2019
+----------------------------
+ Based on the CSeq-framework
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+mutex/Table1//peterson.c, [92mCompilation Done[0m, 1.18, 23.02MB, PRE:0.00
+
+ PSChecker |       July 2019
+----------------------------
+ Based on the CSeq-framework
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+mutex/Table1//szymanski.c, [92mCompilation Done[0m, 1.30, 22.82MB, PRE:0.00

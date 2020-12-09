@@ -1,0 +1,74 @@
+Wed Jul 3 02:24:50 PDT 2019
+
+Evaluating mutex/Table1
+
+---- params ---
+L	 2
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table1/compiled/_cs_bakery.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.512s
+user	0m0.364s
+sys	0m0.036s
+
+
+mutex/Table1/compiled/_cs_burns.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.287s
+user	0m0.248s
+sys	0m0.000s
+
+
+mutex/Table1/compiled/_cs_dekker.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.942s
+user	0m0.848s
+sys	0m0.052s
+
+
+mutex/Table1/compiled/_cs_dekker_simple.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.240s
+user	0m0.196s
+sys	0m0.004s
+
+
+mutex/Table1/compiled/_cs_lamport.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m2.470s
+user	0m2.276s
+sys	0m0.128s
+
+
+mutex/Table1/compiled/_cs_peterson_3.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.843s
+user	0m0.764s
+sys	0m0.040s
+
+
+mutex/Table1/compiled/_cs_peterson.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.325s
+user	0m0.280s
+sys	0m0.004s
+
+
+mutex/Table1/compiled/_cs_szymanski.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.530s
+user	0m0.484s
+sys	0m0.004s
+

@@ -1,0 +1,2 @@
+file mutex/Table2/2a//compiled/_cs_peterson_8_fenced.c line 551 function __cs_safe_malloc: function `malloc' is not declared
+file mutex/Table2/2a//compiled/_cs_peterson_8_fenced.c line 2404 function t0_0: function `assert' is not declared

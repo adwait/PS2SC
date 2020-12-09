@@ -1,0 +1,21 @@
+Sun Jul 5 22:44:51 IST 2020
+
+Compiling ./mutex/Table8
+
+---- params used ---
+ee	 4
+rounds	 2
+prom	 0
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./mutex/Table8/bakery_fenced.c, [92mCompilation Done[0m, 0.65, 22.47MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./mutex/Table8/lamport_fenced.c, [92mCompilation Done[0m, 0.76, 24.11MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./mutex/Table8/peterson_3_fenced.c, [92mCompilation Done[0m, 0.81, 24.69MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./mutex/Table8/peterson_fenced.c, [92mCompilation Done[0m, 0.61, 22.58MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./mutex/Table8/tbar_2_fenced.c, [92mCompilation Done[0m, 0.58, 22.20MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./mutex/Table8/tbar_3_fenced.c, [92mCompilation Done[0m, 0.75, 24.14MB, PRE:0.00

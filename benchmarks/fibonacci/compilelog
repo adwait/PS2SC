@@ -1,0 +1,15 @@
+Thu Jul 2 01:28:00 IST 2020
+
+Compiling ./fibonacci
+
+---- params used ---
+ee	 20
+rounds	 4
+prom	 0
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./fibonacci/fibonacci_2.c, [92mCompilation Done[0m, 0.67, 22.46MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./fibonacci/fibonacci_3.c, [92mCompilation Done[0m, 0.72, 23.30MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./fibonacci/fibonacci_4.c, [92mCompilation Done[0m, 0.78, 23.80MB, PRE:0.00

@@ -1,0 +1,17 @@
+Thu Jun 25 13:45:31 IST 2020
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_fibonacci_2.c line 130 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_fibonacci_2.c line 607 function checker_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_fibonacci_3.c line 130 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_fibonacci_3.c line 415 function worker1_0: function `write_rlx_ps' is not declared
+file compiled/_cs_fibonacci_3.c line 541 function checker_0: function `assert' is not declared
+**** WARNING: no body for function write_rlx_ps
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_fibonacci_4.c line 130 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_fibonacci_4.c line 415 function worker1_0: function `write_rlx_ps' is not declared
+file compiled/_cs_fibonacci_4.c line 541 function checker_0: function `assert' is not declared
+**** WARNING: no body for function write_rlx_ps

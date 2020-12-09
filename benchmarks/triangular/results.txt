@@ -1,0 +1,103 @@
+Thu Jul 4 06:39:56 PDT 2019
+
+------- RESULTS -------
+
+Evaluating _cs_triangular_2_safe.c
+
+---- params ---
+L	 1
+timeout	 3600
+
+
+real	0m0.036s
+user	0m0.004s
+sys	0m0.000s
+
+
+Evaluating _cs_triangular_2_unsafe.c
+
+---- params ---
+L	 1
+timeout	 3600
+
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m1.025s
+user	0m0.364s
+sys	0m0.004s
+
+
+Evaluating _cs_triangular_3_safe.c
+
+---- params ---
+L	 1
+timeout	 3600
+
+
+real	0m0.025s
+user	0m0.000s
+sys	0m0.004s
+
+
+Evaluating _cs_triangular_3_unsafe.c
+
+---- params ---
+L	 1
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	0m2.180s
+user	0m0.916s
+sys	0m0.008s
+
+
+Evaluating _cs_triangular_4_safe.c
+
+---- params ---
+L	 1
+timeout	 3600
+
+
+real	0m0.036s
+user	0m0.004s
+sys	0m0.000s
+
+
+Evaluating _cs_triangular_4_unsafe.c
+
+---- params ---
+L	 1
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	0m4.911s
+user	0m1.872s
+sys	0m0.036s
+
+
+Evaluating _cs_triangular_5_safe.c
+
+---- params ---
+L	 1
+timeout	 3600
+
+
+real	0m0.024s
+user	0m0.004s
+sys	0m0.000s
+
+
+Evaluating _cs_triangular_5_unsafe.c
+
+---- params ---
+L	 1
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	0m7.406s
+user	0m3.312s
+sys	0m0.020s
+

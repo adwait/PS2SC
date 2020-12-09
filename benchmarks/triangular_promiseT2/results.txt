@@ -1,0 +1,42 @@
+Wed Jul 8 11:25:48 IST 2020
+
+------- RESULTS -------
+
+Evaluating _cs_promised_triangular_2.c
+
+---- params ---
+L	 3600
+timeout	
+
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m52.732s
+user	0m52.416s
+sys	0m0.068s
+
+
+Evaluating _cs_promised_triangular_3.c
+
+---- params ---
+L	 3600
+timeout	
+
+VERIFICATION COMPLETE - UNSAFE
+
+real	1m57.954s
+user	1m57.600s
+sys	0m0.160s
+
+
+Evaluating _cs_promised_triangular_4.c
+
+---- params ---
+L	 3600
+timeout	
+
+VERIFICATION COMPLETE - UNSAFE
+
+real	3m58.447s
+user	3m57.928s
+sys	0m0.268s
+

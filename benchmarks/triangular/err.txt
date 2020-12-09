@@ -1,0 +1,17 @@
+Thu Jul 4 06:39:56 PDT 2019
+failed to open input file `compiled/_cs_triangular_2_safe.c'
+Numeric exception : 0
+file compiled/_cs_triangular_2_unsafe.c line 131 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_triangular_2_unsafe.c line 655 function checker_0: function `assert' is not declared
+failed to open input file `compiled/_cs_triangular_3_safe.c'
+Numeric exception : 0
+file compiled/_cs_triangular_3_unsafe.c line 131 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_triangular_3_unsafe.c line 759 function checker_0: function `assert' is not declared
+failed to open input file `compiled/_cs_triangular_4_safe.c'
+Numeric exception : 0
+file compiled/_cs_triangular_4_unsafe.c line 131 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_triangular_4_unsafe.c line 863 function checker_0: function `assert' is not declared
+failed to open input file `compiled/_cs_triangular_5_safe.c'
+Numeric exception : 0
+file compiled/_cs_triangular_5_unsafe.c line 131 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_triangular_5_unsafe.c line 967 function checker_0: function `assert' is not declared

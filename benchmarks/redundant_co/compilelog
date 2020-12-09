@@ -1,0 +1,17 @@
+Thu Jul 2 01:31:37 IST 2020
+
+Compiling ./redundant_co
+
+---- params used ---
+ee	 5
+rounds	 2
+prom	 0
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./redundant_co/redundant_co_10.c, [92mCompilation Done[0m, 0.54, 20.92MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./redundant_co/redundant_co_15.c, [92mCompilation Done[0m, 0.53, 21.04MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./redundant_co/redundant_co_20.c, [92mCompilation Done[0m, 0.53, 20.97MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./redundant_co/redundant_co_5.c, [92mCompilation Done[0m, 0.53, 20.96MB, PRE:0.00

@@ -1,0 +1,13 @@
+Wed Jul 8 11:25:48 IST 2020
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_promised_triangular_2.c line 588 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_promised_triangular_2.c line 1682 function t2_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_promised_triangular_3.c line 652 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_promised_triangular_3.c line 2008 function t2_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_promised_triangular_4.c line 716 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_promised_triangular_4.c line 2334 function t2_0: function `assert' is not declared

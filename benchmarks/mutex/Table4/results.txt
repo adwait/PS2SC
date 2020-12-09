@@ -1,0 +1,50 @@
+Wed Jul 3 03:27:38 PDT 2019
+
+Evaluating mutex/Table4/
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table4//compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m0.732s
+user	0m0.668s
+sys	0m0.024s
+
+
+mutex/Table4//compiled/_cs_peterson_4_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m1.879s
+user	0m1.772s
+sys	0m0.052s
+
+
+mutex/Table4//compiled/_cs_peterson_5_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m4.467s
+user	0m4.320s
+sys	0m0.064s
+
+
+mutex/Table4//compiled/_cs_peterson_6_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m10.459s
+user	0m10.256s
+sys	0m0.112s
+
+
+mutex/Table4//compiled/_cs_peterson_7_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m17.980s
+user	0m17.616s
+sys	0m0.180s
+

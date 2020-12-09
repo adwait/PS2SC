@@ -1,0 +1,68 @@
+Sun Jul 7 16:27:51 CEST 2019
+
+------- RESULTS -------
+
+Evaluating _cs_exponential_bug_5.c
+
+---- params ---
+L	 6
+timeout	 3600
+
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m1.644s
+user	0m1.592s
+sys	0m0.052s
+
+
+Evaluating _cs_exponential_bug_10.c
+
+---- params ---
+L	 11
+timeout	 3600
+
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m2.381s
+user	0m2.352s
+sys	0m0.024s
+
+
+Evaluating _cs_exponential_bug_25.c
+
+---- params ---
+L	 26
+timeout	 3600
+
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m4.679s
+user	0m4.576s
+sys	0m0.092s
+
+
+Evaluating _cs_exponential_bug_50.c
+
+---- params ---
+L	 51
+timeout	 3600
+
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m9.524s
+user	0m9.444s
+sys	0m0.064s
+
+
+Evaluating _cs_exponential_bug_70.c
+
+---- params ---
+L	 71
+timeout	 3600
+
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m9.956s
+user	0m9.688s
+sys	0m0.144s
+

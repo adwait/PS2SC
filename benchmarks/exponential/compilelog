@@ -1,0 +1,19 @@
+Thu Jul 2 01:30:05 IST 2020
+
+Compiling ./exponential
+
+---- params used ---
+ee	 10
+rounds	 2
+prom	 0
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./exponential/exponential_bug_10.c, [92mCompilation Done[0m, 0.73, 22.86MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./exponential/exponential_bug_25.c, [92mCompilation Done[0m, 0.74, 22.74MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./exponential/exponential_bug_50.c, [92mCompilation Done[0m, 0.72, 22.86MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./exponential/exponential_bug_5.c, [92mCompilation Done[0m, 0.73, 22.86MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./exponential/exponential_bug_70.c, [92mCompilation Done[0m, 0.74, 22.73MB, PRE:0.00

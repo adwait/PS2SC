@@ -1,0 +1,2 @@
+file mutex/Table1/compiled/_cs_szymanski.c line 159 function __cs_safe_malloc: function `malloc' is not declared
+file mutex/Table1/compiled/_cs_szymanski.c line 667 function t0_0: function `assert' is not declared

@@ -1,0 +1,17 @@
+Thu Jul 2 18:18:34 IST 2020
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_n_writers_a_reader_7.c line 102 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_n_writers_a_reader_7.c line 686 function reader_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_n_writers_a_reader_8.c line 102 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_n_writers_a_reader_8.c line 733 function reader_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_n_writers_a_reader_9.c line 102 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_n_writers_a_reader_9.c line 780 function reader_0: function `assert' is not declared
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file compiled/_cs_n_writers_a_reader_10.c line 102 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_n_writers_a_reader_10.c line 827 function reader_0: function `assert' is not declared

@@ -1,0 +1,15 @@
+Thu Jul 2 01:30:35 IST 2020
+
+Compiling ./fibonacci_unsafe
+
+---- params used ---
+ee	 20
+rounds	 4
+prom	 0
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./fibonacci_unsafe/fibonacci_2.c, [92mCompilation Done[0m, 0.68, 22.34MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./fibonacci_unsafe/fibonacci_3.c, [92mCompilation Done[0m, 0.74, 23.19MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./fibonacci_unsafe/fibonacci_4.c, [92mCompilation Done[0m, 0.78, 23.87MB, PRE:0.00

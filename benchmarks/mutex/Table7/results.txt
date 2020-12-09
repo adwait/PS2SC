@@ -1,0 +1,58 @@
+Tue Jul 2 07:40:01 PDT 2019
+
+Evaluating mutex/Table7
+
+---- params ---
+L	 2
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table7/compiled/_cs_bakery_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m1.271s
+user	0m0.604s
+sys	0m0.020s
+
+
+mutex/Table7/compiled/_cs_lamport_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m6.631s
+user	0m3.192s
+sys	0m0.096s
+
+
+mutex/Table7/compiled/_cs_peterson_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m2.634s
+user	0m1.248s
+sys	0m0.048s
+
+
+mutex/Table7/compiled/_cs_peterson_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.798s
+user	0m0.372s
+sys	0m0.008s
+
+
+mutex/Table7/compiled/_cs_tbar_2_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m0.596s
+user	0m0.276s
+sys	0m0.000s
+
+
+mutex/Table7/compiled/_cs_tbar_3_fenced.c
+VERIFICATION COMPLETE - SAFE
+
+real	0m1.480s
+user	0m0.704s
+sys	0m0.012s
+

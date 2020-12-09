@@ -1,0 +1,42 @@
+Wed Jul 3 02:42:43 PDT 2019
+
+Evaluating mutex/Table2/2a/
+
+---- params ---
+L	 1
+timeout	
+
+
+------- RESULTS -------
+
+mutex/Table2/2a//compiled/_cs_peterson_10_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	12m14.705s
+user	12m9.188s
+sys	0m3.444s
+
+
+mutex/Table2/2a//compiled/_cs_peterson_4_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m1.876s
+user	0m1.796s
+sys	0m0.020s
+
+
+mutex/Table2/2a//compiled/_cs_peterson_6_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	0m11.000s
+user	0m10.696s
+sys	0m0.156s
+
+
+mutex/Table2/2a//compiled/_cs_peterson_8_fenced.c
+VERIFICATION COMPLETE - UNSAFE
+
+real	1m22.371s
+user	1m21.624s
+sys	0m0.420s
+

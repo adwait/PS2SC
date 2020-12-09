@@ -1,0 +1,17 @@
+Thu Jul 2 18:18:07 IST 2020
+
+Compiling ./rw
+
+---- params used ---
+ee	 5
+rounds	 2
+prom	 0
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./rw/n_writers_a_reader_10.c, [92mCompilation Done[0m, 0.80, 25.22MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./rw/n_writers_a_reader_7.c, [92mCompilation Done[0m, 0.70, 23.13MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./rw/n_writers_a_reader_8.c, [92mCompilation Done[0m, 0.74, 24.22MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./rw/n_writers_a_reader_9.c, [92mCompilation Done[0m, 0.78, 24.85MB, PRE:0.00

@@ -1,0 +1,42 @@
+Thu Jun 25 13:45:31 IST 2020
+
+------- RESULTS -------
+
+Evaluating _cs_fibonacci_2.c
+
+---- params ---
+L	 10
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	1m15.706s
+user	1m15.336s
+sys	0m0.368s
+
+
+Evaluating _cs_fibonacci_3.c
+
+---- params ---
+L	 10
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	0m3.930s
+user	0m3.836s
+sys	0m0.088s
+
+
+Evaluating _cs_fibonacci_4.c
+
+---- params ---
+L	 15
+timeout	 3600
+
+VERIFICATION COMPLETE - SAFE
+
+real	0m6.962s
+user	0m6.832s
+sys	0m0.120s
+

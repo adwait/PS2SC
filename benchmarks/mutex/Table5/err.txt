@@ -1,0 +1,4 @@
+file mutex/Table5/compiled/_cs_szymanski_7_fenced.c line 327 function __cs_safe_malloc: function `malloc' is not declared
+file mutex/Table5/compiled/_cs_szymanski_7_fenced.c line 618 function t0_0: function `rmw' is not declared
+file mutex/Table5/compiled/_cs_szymanski_7_fenced.c line 1166 function t0_0: function `assert' is not declared
+**** WARNING: no body for function rmw

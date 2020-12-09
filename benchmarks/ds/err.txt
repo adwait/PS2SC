@@ -1,0 +1,7 @@
+Thu Jul 4 10:12:48 PDT 2019
+file compiled/_cs_queue_safe_2.c line 337 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_queue_safe_2.c line 926 function te0_0: function `assert' is not declared
+file compiled/_cs_queue_safe_3.c line 375 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_queue_safe_3.c line 971 function te0_0: function `assert' is not declared
+file compiled/_cs_stack_safe.c line 197 function __cs_safe_malloc: function `malloc' is not declared
+file compiled/_cs_stack_safe.c line 514 function t1_0: function `assert' is not declared

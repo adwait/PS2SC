@@ -1,0 +1,25 @@
+Thu Jul 2 01:32:22 IST 2020
+
+Compiling ./triangular
+
+---- params used ---
+ee	 10
+rounds	 3
+prom	 0
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./triangular/triangular_2_safe.c, [92mCompilation Done[0m, 0.63, 22.70MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./triangular/triangular_2_unsafe.c, [92mCompilation Done[0m, 0.63, 22.71MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./triangular/triangular_3_safe.c, [92mCompilation Done[0m, 0.66, 22.61MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./triangular/triangular_3_unsafe.c, [92mCompilation Done[0m, 0.66, 22.64MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./triangular/triangular_4_safe.c, [92mCompilation Done[0m, 0.71, 22.51MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./triangular/triangular_4_unsafe.c, [92mCompilation Done[0m, 0.70, 22.65MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./triangular/triangular_5_safe.c, [92mCompilation Done[0m, 0.74, 23.18MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./triangular/triangular_5_unsafe.c, [92mCompilation Done[0m, 0.73, 23.33MB, PRE:0.00

@@ -1,0 +1,23 @@
+Thu Jul 2 01:31:55 IST 2020
+
+Compiling ./ds
+
+---- params used ---
+ee	 4
+rounds	 1
+prom	 0
+
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./ds/hehner_2.c, [92mCompilation Done[0m, 0.76, 24.03MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./ds/hehner_3.c, [92mCompilation Done[0m, 0.96, 25.48MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./ds/hehner_c11.c, [92mCompilation Done[0m, 0.82, 25.10MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./ds/linuxrwlocks_2.c, [92mCompilation Done[0m, 0.77, 24.05MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./ds/linuxrwlocks_3.c, [92mCompilation Done[0m, 0.85, 24.88MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./ds/queue_safe_2.c, [92mCompilation Done[0m, 0.80, 25.44MB, PRE:0.00
+Compilation to SC done. Please use backend-module on the _cs_ file generated.
+testbed-pack/./ds/queue_safe_3.c, [92mCompilation Done[0m, 0.88, 27.05MB, PRE:0.00

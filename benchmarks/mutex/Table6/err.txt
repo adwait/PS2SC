@@ -1,0 +1,4 @@
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+file <command-line> line 0: <built-in>: note: this is the location of the previous definition
+file mutex/Table6/compiled/_cs_tbar_3_fenced.c line 298 function __cs_safe_malloc: function `malloc' is not declared
+file mutex/Table6/compiled/_cs_tbar_3_fenced.c line 582 function t0_0: function `assert' is not declared
