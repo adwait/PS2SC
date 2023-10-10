@@ -49,7 +49,7 @@ void *writer7(void *arg) {
 void *reader(void *arg) {
   int r1;
   rlx_read_ps(x, r1);
-  if (r1 == 11){
+  if (r1 == 8){
     assert(0);
   }
   return NULL;
